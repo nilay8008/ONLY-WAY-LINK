@@ -17,6 +17,7 @@ interface _GlobalComponents {
   BackgroundLinesDemo: typeof import("../../components/BackgroundLinesDemo.vue")['default']
   LinkCard: typeof import("../../components/LinkCard.vue")['default']
   SocialIcon: typeof import("../../components/SocialIcon.vue")['default']
+  TimezoneWidget: typeof import("../../components/TimezoneWidget.vue")['default']
   StunningRisingStars: typeof import("../../components/stunning/RisingStars.vue")['default']
   StunningTyndallEffect: typeof import("../../components/stunning/TyndallEffect.vue")['default']
   NuxtWelcome: typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -48,6 +49,7 @@ interface _GlobalComponents {
   LazyBackgroundLinesDemo: LazyComponent<typeof import("../../components/BackgroundLinesDemo.vue")['default']>
   LazyLinkCard: LazyComponent<typeof import("../../components/LinkCard.vue")['default']>
   LazySocialIcon: LazyComponent<typeof import("../../components/SocialIcon.vue")['default']>
+  LazyTimezoneWidget: LazyComponent<typeof import("../../components/TimezoneWidget.vue")['default']>
   LazyStunningRisingStars: LazyComponent<typeof import("../../components/stunning/RisingStars.vue")['default']>
   LazyStunningTyndallEffect: LazyComponent<typeof import("../../components/stunning/TyndallEffect.vue")['default']>
   LazyNuxtWelcome: LazyComponent<typeof import("../../node_modules/nuxt/dist/app/components/welcome.vue")['default']>

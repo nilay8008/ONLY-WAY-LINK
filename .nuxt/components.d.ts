@@ -17,6 +17,7 @@ type LazyComponent<T> = DefineComponent<HydrationStrategies, {}, {}, {}, {}, {},
 export const BackgroundLinesDemo: typeof import("../components/BackgroundLinesDemo.vue")['default']
 export const LinkCard: typeof import("../components/LinkCard.vue")['default']
 export const SocialIcon: typeof import("../components/SocialIcon.vue")['default']
+export const TimezoneWidget: typeof import("../components/TimezoneWidget.vue")['default']
 export const StunningRisingStars: typeof import("../components/stunning/RisingStars.vue")['default']
 export const StunningTyndallEffect: typeof import("../components/stunning/TyndallEffect.vue")['default']
 export const NuxtWelcome: typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']
@@ -48,6 +49,7 @@ export const NuxtIsland: typeof import("../node_modules/nuxt/dist/app/components
 export const LazyBackgroundLinesDemo: LazyComponent<typeof import("../components/BackgroundLinesDemo.vue")['default']>
 export const LazyLinkCard: LazyComponent<typeof import("../components/LinkCard.vue")['default']>
 export const LazySocialIcon: LazyComponent<typeof import("../components/SocialIcon.vue")['default']>
+export const LazyTimezoneWidget: LazyComponent<typeof import("../components/TimezoneWidget.vue")['default']>
 export const LazyStunningRisingStars: LazyComponent<typeof import("../components/stunning/RisingStars.vue")['default']>
 export const LazyStunningTyndallEffect: LazyComponent<typeof import("../components/stunning/TyndallEffect.vue")['default']>
 export const LazyNuxtWelcome: LazyComponent<typeof import("../node_modules/nuxt/dist/app/components/welcome.vue")['default']>
