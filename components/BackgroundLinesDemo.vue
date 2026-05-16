@@ -17,8 +17,8 @@ defineProps<{
   background-color: rgb(0, 0, 0);
   
   /* Create the dot pattern */
-  background-image: radial-gradient(hsla(0, 100.00%, 47.50%, 0.88) 1px, transparent 1px);
-  background-size: 24px 24px;
+  background-image: radial-gradient(hsla(0, 100.00%, 47.50%, 0.88) 0.9px, transparent 0.3px);
+  background-size: 20px 20px;
   
   width: 100%;
   min-height: 100vh; /* Changed from 1vh to 100vh to ensure it covers the full viewport */
