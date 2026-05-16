@@ -34,6 +34,7 @@ module.exports = {
       animation: {
         'fade-up': 'fadeUp 0.5s ease forwards',
         'scale-in': 'scaleIn 0.3s ease forwards',
+        'risingstar': 'risingstar 1000s linear infinite',
       },
       keyframes: {
         fadeUp: {
@@ -43,6 +44,14 @@ module.exports = {
         scaleIn: {
           '0%': { opacity: '0', transform: 'scale(0.95)' },
           '100%': { opacity: '1', transform: 'scale(1)' },
+        },
+        risingstar: {
+          from: {
+            transform: 'translateY(0px)',
+          },
+          to: {
+            transform: 'translateY(-3840px)',
+          },
         },
       },
     },

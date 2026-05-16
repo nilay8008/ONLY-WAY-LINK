@@ -210,6 +210,8 @@ declare global {
   const useElementByPoint: typeof import('@vueuse/core').useElementByPoint
   const useElementHover: typeof import('@vueuse/core').useElementHover
   const useElementSize: typeof import('@vueuse/core').useElementSize
+  const useElementStyle: typeof import('@vueuse/motion').useElementStyle
+  const useElementTransform: typeof import('@vueuse/motion').useElementTransform
   const useElementVisibility: typeof import('@vueuse/core').useElementVisibility
   const useError: typeof import('../../node_modules/nuxt/dist/app/composables/error').useError
   const useEventBus: typeof import('@vueuse/core').useEventBus
@@ -249,6 +251,9 @@ declare global {
   const useMemoize: typeof import('@vueuse/core').useMemoize
   const useMemory: typeof import('@vueuse/core').useMemory
   const useModel: typeof import('../../node_modules/vue').useModel
+  const useMotion: typeof import('@vueuse/motion').useMotion
+  const useMotionProperties: typeof import('@vueuse/motion').useMotionProperties
+  const useMotionVariants: typeof import('@vueuse/motion').useMotionVariants
   const useMounted: typeof import('@vueuse/core').useMounted
   const useMouse: typeof import('@vueuse/core').useMouse
   const useMouseInElement: typeof import('@vueuse/core').useMouseInElement
@@ -341,6 +346,7 @@ declare global {
   const useSorted: typeof import('@vueuse/core').useSorted
   const useSpeechRecognition: typeof import('@vueuse/core').useSpeechRecognition
   const useSpeechSynthesis: typeof import('@vueuse/core').useSpeechSynthesis
+  const useSpring: typeof import('@vueuse/motion').useSpring
   const useState: typeof import('../../node_modules/nuxt/dist/app/composables/state').useState
   const useStepper: typeof import('@vueuse/core').useStepper
   const useStorageAsync: typeof import('@vueuse/core').useStorageAsync
@@ -626,6 +632,8 @@ declare module 'vue' {
     readonly useElementByPoint: UnwrapRef<typeof import('@vueuse/core')['useElementByPoint']>
     readonly useElementHover: UnwrapRef<typeof import('@vueuse/core')['useElementHover']>
     readonly useElementSize: UnwrapRef<typeof import('@vueuse/core')['useElementSize']>
+    readonly useElementStyle: UnwrapRef<typeof import('@vueuse/motion')['useElementStyle']>
+    readonly useElementTransform: UnwrapRef<typeof import('@vueuse/motion')['useElementTransform']>
     readonly useElementVisibility: UnwrapRef<typeof import('@vueuse/core')['useElementVisibility']>
     readonly useError: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/error')['useError']>
     readonly useEventBus: UnwrapRef<typeof import('@vueuse/core')['useEventBus']>
@@ -665,6 +673,9 @@ declare module 'vue' {
     readonly useMemoize: UnwrapRef<typeof import('@vueuse/core')['useMemoize']>
     readonly useMemory: UnwrapRef<typeof import('@vueuse/core')['useMemory']>
     readonly useModel: UnwrapRef<typeof import('../../node_modules/vue')['useModel']>
+    readonly useMotion: UnwrapRef<typeof import('@vueuse/motion')['useMotion']>
+    readonly useMotionProperties: UnwrapRef<typeof import('@vueuse/motion')['useMotionProperties']>
+    readonly useMotionVariants: UnwrapRef<typeof import('@vueuse/motion')['useMotionVariants']>
     readonly useMounted: UnwrapRef<typeof import('@vueuse/core')['useMounted']>
     readonly useMouse: UnwrapRef<typeof import('@vueuse/core')['useMouse']>
     readonly useMouseInElement: UnwrapRef<typeof import('@vueuse/core')['useMouseInElement']>
@@ -757,6 +768,7 @@ declare module 'vue' {
     readonly useSorted: UnwrapRef<typeof import('@vueuse/core')['useSorted']>
     readonly useSpeechRecognition: UnwrapRef<typeof import('@vueuse/core')['useSpeechRecognition']>
     readonly useSpeechSynthesis: UnwrapRef<typeof import('@vueuse/core')['useSpeechSynthesis']>
+    readonly useSpring: UnwrapRef<typeof import('@vueuse/motion')['useSpring']>
     readonly useState: UnwrapRef<typeof import('../../node_modules/nuxt/dist/app/composables/state')['useState']>
     readonly useStepper: UnwrapRef<typeof import('@vueuse/core')['useStepper']>
     readonly useStorageAsync: UnwrapRef<typeof import('@vueuse/core')['useStorageAsync']>

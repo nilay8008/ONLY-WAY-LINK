@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "@headlessui/vue": "^1.7.8",
+    "@vueuse/motion": "^3.0.3",
     "floating-vue": "^2.0.0-beta.20",
     "js-base64": "^3.7.4",
     "vuedraggable": "^4.1.0"
